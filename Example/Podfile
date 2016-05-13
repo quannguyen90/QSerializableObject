@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QSerializableObject_Example' do
+  pod 'QSerializableObject', :path => '../'
+
+  target 'QSerializableObject_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
