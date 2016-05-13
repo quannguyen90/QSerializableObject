@@ -13,6 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		9AE878501CE5790100D955DD /* TestObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE8784F1CE5790100D955DD /* TestObject.swift */; };
 		9BAF0B442AD40488E3C7695F /* Pods_QSerializableObject_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB9DA6F522F49EDB5D515DD /* Pods_QSerializableObject_Example.framework */; };
 		9D57957D2BB08C9232B5CED1 /* Pods_QSerializableObject_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A63CC487103FC731291A3B5 /* Pods_QSerializableObject_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -43,6 +44,7 @@
 		67BA6F8BC9FBC6FFCA36F915 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7EB9DA6F522F49EDB5D515DD /* Pods_QSerializableObject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QSerializableObject_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A63CC487103FC731291A3B5 /* Pods_QSerializableObject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QSerializableObject_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE8784F1CE5790100D955DD /* TestObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestObject.swift; sourceTree = "<group>"; };
 		9B70EF0C1C3D57E2C98FBDD7 /* Pods-QSerializableObject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QSerializableObject_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QSerializableObject_Example/Pods-QSerializableObject_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E0D6B6B03E24001D382A43CA /* Pods-QSerializableObject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QSerializableObject_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QSerializableObject_Tests/Pods-QSerializableObject_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E61D3CEAE9B5EDDC1E3871E0 /* QSerializableObject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QSerializableObject.podspec; path = ../QSerializableObject.podspec; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		607FACD21AFB9204008FA782 /* Example for QSerializableObject */ = {
 			isa = PBXGroup;
 			children = (
+				9AE8784F1CE5790100D955DD /* TestObject.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -359,6 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AE878501CE5790100D955DD /* TestObject.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

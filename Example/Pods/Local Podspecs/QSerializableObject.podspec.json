@@ -1,0 +1,19 @@
+{
+  "name": "QSerializableObject",
+  "version": "0.1.0",
+  "summary": "A short description of QSerializableObject.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/QSerializableObject",
+  "license": "MIT",
+  "authors": {
+    "Quan Nguyen Van": "quannv.tm@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/QSerializableObject.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QSerializableObject/Classes/**/*"
+}

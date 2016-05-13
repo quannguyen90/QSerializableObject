@@ -1,0 +1,6 @@
+framework module Pods_QSerializableObject_Example {
+  umbrella header "Pods-QSerializableObject_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

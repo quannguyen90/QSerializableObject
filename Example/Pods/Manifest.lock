@@ -1,0 +1,16 @@
+PODS:
+  - QSerializableObject (0.1.0)
+
+DEPENDENCIES:
+  - QSerializableObject (from `../`)
+
+EXTERNAL SOURCES:
+  QSerializableObject:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QSerializableObject: f9ae2f4822f8b1113ce41b5b25d3797d5569edf3
+
+PODFILE CHECKSUM: df54c6d48c39e3a0469f80a892bd8e0515b517ac
+
+COCOAPODS: 1.0.0

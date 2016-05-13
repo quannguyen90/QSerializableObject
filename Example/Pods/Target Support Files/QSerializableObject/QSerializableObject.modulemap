@@ -1,0 +1,6 @@
+framework module QSerializableObject {
+  umbrella header "QSerializableObject-umbrella.h"
+
+  export *
+  module * { export * }
+}

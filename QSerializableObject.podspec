@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/QSerializableObject"
+  s.homepage         = "https://github.com/quannguyen90/QSerializableObject"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Quan Nguyen Van" => "quannv.tm@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/QSerializableObject.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/quannguyen90/QSerializableObject.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
